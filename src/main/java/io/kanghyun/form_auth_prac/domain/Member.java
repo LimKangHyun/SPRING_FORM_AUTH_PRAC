@@ -1,4 +1,4 @@
-package io.kanghyun.form_auth_prac.dao;
+package io.kanghyun.form_auth_prac.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
