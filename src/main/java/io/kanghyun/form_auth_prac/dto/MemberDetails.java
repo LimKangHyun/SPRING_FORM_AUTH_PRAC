@@ -15,7 +15,7 @@ public class MemberDetails implements UserDetails {
     private final String role;
 
     public MemberDetails(Member member) {
-        this.username = member.getName();
+        this.username = member.getUsername();
         this.password = member.getPassword();
         this.role = member.getRole();
     }
